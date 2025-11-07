@@ -87,13 +87,13 @@
 - 모든 수치는 소수점 셋째 자리까지 반올림한다.
 
 ## Appendix D. 참고 자료
-- CoinMarketCap: https://coinmarketcap.com
-- CoinGecko: https://www.coingecko.com
-- Binance: https://binance-docs.github.io/apidocs/
-- Coinbase: https://docs.cloud.coinbase.com/advanced-trade-api/
-- Bybit: https://bybit-exchange.github.io/docs/
-- Upbit: https://docs.upbit.com/
-- OKX: https://www.okx.com/docs-v5/
-- Bitget: https://bitgetlimited.github.io/apidoc/
-- Gate.io: https://www.gate.io/docs/developers/apiv4/en/
-- Kraken: https://docs.kraken.com/rest/
+- CoinMarketCap: [https://coinmarketcap.com](https://coinmarketcap.com)
+- CoinGecko: [https://www.coingecko.com](https://www.coingecko.com)
+- Binance API Docs: [https://binance-docs.github.io/apidocs/](https://binance-docs.github.io/apidocs/)
+- Coinbase Advanced Trade API: [https://docs.cloud.coinbase.com/advanced-trade-api/](https://docs.cloud.coinbase.com/advanced-trade-api/)
+- Bybit API Docs: [https://bybit-exchange.github.io/docs/](https://bybit-exchange.github.io/docs/)
+- Upbit API Docs: [https://docs.upbit.com/](https://docs.upbit.com/)
+- OKX API Docs (v5): [https://www.okx.com/docs-v5/](https://www.okx.com/docs-v5/)
+- Bitget API Docs: [https://bitgetlimited.github.io/apidoc/](https://bitgetlimited.github.io/apidoc/)
+- Gate.io API v4 Docs: [https://www.gate.io/docs/developers/apiv4/en/](https://www.gate.io/docs/developers/apiv4/en/)
+- Kraken REST API: [https://docs.kraken.com/rest/](https://docs.kraken.com/rest/)
