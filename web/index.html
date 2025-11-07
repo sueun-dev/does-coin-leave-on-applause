@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coin Listing Dashboard</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script defer src="./app.js"></script>
+  </head>
+  <body>
+    <header class="page-header">
+      <div>
+        <p class="eyebrow">does-coin-leave-on-applause</p>
+        <h1>상장 코인 10선 그래프</h1>
+        <p class="lede">
+          공통 상장 코인을 선택하면 5개 거래소에서 수집한 일별 고·저가를 한눈에 비교할 수 있습니다.
+        </p>
+      </div>
+    </header>
+    <main>
+      <section class="controls">
+        <label for="coinSelect">코인 선택</label>
+        <select id="coinSelect" aria-label="코인 선택"></select>
+        <p class="hint">
+          데이터는 <code>data/daily_histories/&lt;COIN&gt;.json</code>에서 로드됩니다. 페이지를 보기 전에
+          <code>python3 scripts/fetch_daily_histories.py</code>를 실행해 최신 데이터를 준비하세요.
+        </p>
+      </section>
+      <section id="status" class="status" role="status" aria-live="polite"></section>
+      <section id="chartsContainer" class="charts-grid"></section>
+    </main>
+    <div id="exchangeModal" class="modal hidden">
+      <div id="modalBackdrop" class="modal-backdrop" tabindex="-1" aria-hidden="true"></div>
+      <div class="modal-dialog" role="dialog" aria-modal="true">
+        <button id="modalClose" class="modal-close" aria-label="닫기">×</button>
+        <header class="modal-header">
+          <p id="modalSubtitle" class="modal-subtitle"></p>
+          <h2 id="modalTitle"></h2>
+        </header>
+        <section class="modal-chart">
+          <canvas id="modalChart"></canvas>
+        </section>
+        <section id="modalStats" class="modal-stats"></section>
+        <section class="scroll-table modal-table" id="modalTableWrapper"></section>
+      </div>
+    </div>
+    <footer>
+      <p>
+        Tip: 저장소 루트에서 <code>python3 -m http.server</code>를 실행하고
+        <code>http://localhost:8000/web/</code>로 접속하면 이 대시보드를 볼 수 있습니다.
+      </p>
+    </footer>
+  </body>
+</html>

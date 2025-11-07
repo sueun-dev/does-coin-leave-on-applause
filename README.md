@@ -34,6 +34,13 @@
 - 스테이블코인 및 페깅 자산 제외.
 - 수익률 데이터는 상하위 1% 극단값 제거.
 - 각 코인은 CoinMarketCap 혹은 CoinGecko 고유 ID로 식별하여 심볼 중복이나 리브랜딩을 방지한다.
+- 거래소별 상장 코인 목록은 `scripts/fetch_listed_coins.py`로 자동 수집하며, 실행 시 `data/listed_coins.json`(거래소별 전체 목록)과 `data/common_coins.json`(모든 거래소에 공통으로 상장된 코인)을 동시에 생성한다. 사용 예: `python3 scripts/fetch_listed_coins.py --log-level INFO`.
+- 공통 상장 코인의 일별 시세는 `scripts/fetch_daily_histories.py`로 관리한다. 스크립트를 재실행하면 기존 `data/daily_histories/<COIN>.json`을 읽고 새로 추가된 1일 캔들만 덧붙이는 증분 모드가 기본이며, 전량 다시 내려받으려면 `--full-refresh` 플래그를 사용한다. 예:  
+  ```bash
+  # 매일 UTC 03:00에 최신 데이터 1일치를 자동으로 추가
+  0 3 * * * cd /Users/bentley/Documents/codebase/does-coin-leave-on-applause && /usr/bin/python3 scripts/fetch_daily_histories.py --log-level INFO >> /tmp/coin-harvest.log 2>&1
+  ```
+  `web/` 폴더에는 이 데이터를 시각화하는 대시보드(Chart.js 기반)가 포함되어 있어, 루트에서 `python3 -m http.server`를 실행하고 `http://localhost:8000/web/`에 접속하면 거래소별 고·저가 트랙을 동시에 확인할 수 있다.
 
 ## 7. 분석 절차
 - 상장일을 t=0, 분석 구간을 t ∈ [0, 10]으로 정의한다.
@@ -94,6 +101,4 @@
 - Bybit API Docs: [https://bybit-exchange.github.io/docs/](https://bybit-exchange.github.io/docs/)
 - Upbit API Docs: [https://docs.upbit.com/](https://docs.upbit.com/)
 - OKX API Docs (v5): [https://www.okx.com/docs-v5/](https://www.okx.com/docs-v5/)
-- Bitget API Docs: [https://bitgetlimited.github.io/apidoc/](https://bitgetlimited.github.io/apidoc/)
-- Gate.io API v4 Docs: [https://www.gate.io/docs/developers/apiv4/en/](https://www.gate.io/docs/developers/apiv4/en/)
 - Kraken REST API: [https://docs.kraken.com/rest/](https://docs.kraken.com/rest/)
