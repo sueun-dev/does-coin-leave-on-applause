@@ -1,0 +1,1675 @@
+{
+  "generated_at": "2025-11-10T01:25:23.918006+00:00",
+  "coins_processed": 69,
+  "coin_metrics": {
+    "1INCH": {
+      "coin": "1INCH",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.0022497187851517903,
+      "median_abs_spread": 0.0007999999999999952,
+      "listing_date": "2023-02-12T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 1000,
+      "cum_return": -0.6330206378986867,
+      "max_drawdown": -0.7880640465793305,
+      "volatility": 0.8977849087468233
+    },
+    "AAVE": {
+      "coin": "AAVE",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.0009040775072570206,
+      "median_abs_spread": 0.09000000000000341,
+      "listing_date": "2023-02-12T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 1000,
+      "cum_return": 1.5733850129198967,
+      "max_drawdown": -0.6732980470888847,
+      "volatility": 0.9049997090800148
+    },
+    "ADA": {
+      "coin": "ADA",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.0006779680493192282,
+      "median_abs_spread": 0.00030000000000002247,
+      "listing_date": "2023-02-12T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 1000,
+      "cum_return": 0.4759681406207086,
+      "max_drawdown": -0.5977559969048233,
+      "volatility": 0.8659301015511155
+    },
+    "AGLD": {
+      "coin": "AGLD",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.0030849660071014555,
+      "median_abs_spread": 0.00269999999999998,
+      "listing_date": "2023-02-12T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 1000,
+      "cum_return": -0.3431952662721893,
+      "max_drawdown": -0.889741800418702,
+      "volatility": 1.3191482948967097
+    },
+    "ALGO": {
+      "coin": "ALGO",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.0010596027233614775,
+      "median_abs_spread": 0.00019999999999999185,
+      "listing_date": "2023-02-12T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 1000,
+      "cum_return": -0.35367825383993545,
+      "max_drawdown": -0.6975054016892556,
+      "volatility": 0.9021753415601186
+    },
+    "APT": {
+      "coin": "APT",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.0012241655616071845,
+      "median_abs_spread": 0.009999999999999787,
+      "listing_date": "2023-02-12T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 1000,
+      "cum_return": -0.7816167381384773,
+      "max_drawdown": -0.8582749499175438,
+      "volatility": 0.911670860048947
+    },
+    "ARB": {
+      "coin": "ARB",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.0009272137227629947,
+      "median_abs_spread": 0.0009000000000000119,
+      "listing_date": "2023-03-23T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 961,
+      "cum_return": -0.7963985775894681,
+      "max_drawdown": -0.8871917474653561,
+      "volatility": 0.9680057720135501
+    },
+    "ARKM": {
+      "coin": "ARKM",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.0013371808156959022,
+      "median_abs_spread": 0.0012799999999999756,
+      "listing_date": "2023-07-18T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 844,
+      "cum_return": -0.5394436844505244,
+      "max_drawdown": -0.9264428991037582,
+      "volatility": 1.287401761782737
+    },
+    "ATOM": {
+      "coin": "ATOM",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.0007258506454860293,
+      "median_abs_spread": 0.005749999999999922,
+      "listing_date": "2023-02-12T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 1000,
+      "cum_return": -0.8000590885589778,
+      "max_drawdown": -0.8262497399986133,
+      "volatility": 0.7699516324838659
+    },
+    "AVAX": {
+      "coin": "AVAX",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.0007677547711685373,
+      "median_abs_spread": 0.01999999999999602,
+      "listing_date": "2023-02-12T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 1000,
+      "cum_return": -0.08605174353205858,
+      "max_drawdown": -0.7365210222588623,
+      "volatility": 0.9014733622722595
+    },
+    "AVNT": {
+      "coin": "AVNT",
+      "primary_exchange": "binance",
+      "median_rel_spread": 1.997258712164327,
+      "median_abs_spread": 1007.8322000000001,
+      "listing_date": "2025-09-15T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 54,
+      "cum_return": -0.5976863753213367,
+      "max_drawdown": -0.7928640961611715,
+      "volatility": 2.672186899245792
+    },
+    "AXS": {
+      "coin": "AXS",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.0017864913255050475,
+      "median_abs_spread": 0.01034999999999986,
+      "listing_date": "2023-02-12T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 1000,
+      "cum_return": -0.8729566094853684,
+      "max_drawdown": -0.9064521217857706,
+      "volatility": 0.8674596382067398
+    },
+    "BARD": {
+      "coin": "BARD",
+      "primary_exchange": "binance",
+      "median_rel_spread": 1.9973100746047547,
+      "median_abs_spread": 1037.3136,
+      "listing_date": "2025-09-18T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 51,
+      "cum_return": -0.348852582869015,
+      "max_drawdown": -0.5857579380895443,
+      "volatility": 1.794226413434249
+    },
+    "BAT": {
+      "coin": "BAT",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.0020128675292033172,
+      "median_abs_spread": 0.00043999999999999595,
+      "listing_date": "2023-02-12T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 1000,
+      "cum_return": -0.2115520907158044,
+      "max_drawdown": -0.7011708355508249,
+      "volatility": 0.8107249845683401
+    },
+    "BCH": {
+      "coin": "BCH",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.0008421052631578469,
+      "median_abs_spread": 0.2300000000000182,
+      "listing_date": "2023-02-12T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 1000,
+      "cum_return": 2.8633034987794956,
+      "max_drawdown": -0.6120478455108805,
+      "volatility": 0.8323373275311512
+    },
+    "BERA": {
+      "coin": "BERA",
+      "primary_exchange": "binance",
+      "median_rel_spread": 1.9971216312961633,
+      "median_abs_spread": 2835.948,
+      "listing_date": "2025-02-06T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 275,
+      "cum_return": -0.8322817483079041,
+      "max_drawdown": -0.8343363233791302,
+      "volatility": 1.3641378624953482
+    },
+    "BLUR": {
+      "coin": "BLUR",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.0012250345736424073,
+      "median_abs_spread": 0.00039999999999995595,
+      "listing_date": "2023-11-24T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 715,
+      "cum_return": -0.9338062924120913,
+      "max_drawdown": -0.9487408510110408,
+      "volatility": 1.0367329088405874
+    },
+    "BONK": {
+      "coin": "BONK",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.001009591115598173,
+      "median_abs_spread": 2.0000000000001503e-08,
+      "listing_date": "2023-12-15T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 694,
+      "cum_return": -0.4909397387273494,
+      "max_drawdown": -0.8224664679582713,
+      "volatility": 1.4139203220131689
+    },
+    "CHZ": {
+      "coin": "CHZ",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.001666666666666599,
+      "median_abs_spread": 0.00010000000000001674,
+      "listing_date": "2023-02-12T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 1000,
+      "cum_return": -0.7737275449101797,
+      "max_drawdown": -0.831791976939707,
+      "volatility": 0.8500508438458922
+    },
+    "COMP": {
+      "coin": "COMP",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.0014396451803134808,
+      "median_abs_spread": 0.07000000000000739,
+      "listing_date": "2023-02-12T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 1000,
+      "cum_return": -0.34177475808112,
+      "max_drawdown": -0.7504988360492185,
+      "volatility": 0.9157761993346842
+    },
+    "DOGE": {
+      "coin": "DOGE",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.000546244393048431,
+      "median_abs_spread": 6.0000000000004494e-05,
+      "listing_date": "2023-02-12T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 1000,
+      "cum_return": 0.9695678636640293,
+      "max_drawdown": -0.6949715878631929,
+      "volatility": 0.8853423323297154
+    },
+    "DOT": {
+      "coin": "DOT",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.0007201793565913159,
+      "median_abs_spread": 0.0039999999999995595,
+      "listing_date": "2023-02-12T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 1000,
+      "cum_return": -0.5523378094159521,
+      "max_drawdown": -0.7830074407336909,
+      "volatility": 0.7820046919037986
+    },
+    "EGLD": {
+      "coin": "EGLD",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.001577777103077182,
+      "median_abs_spread": 0.05499999999999616,
+      "listing_date": "2023-02-12T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 1000,
+      "cum_return": -0.8068698817106461,
+      "max_drawdown": -0.8901288694034808,
+      "volatility": 0.8572180888452526
+    },
+    "ENA": {
+      "coin": "ENA",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.000704473406128841,
+      "median_abs_spread": 0.00030000000000002247,
+      "listing_date": "2024-04-02T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 585,
+      "cum_return": -0.6012903225806452,
+      "max_drawdown": -0.8596851471594799,
+      "volatility": 1.438250617560439
+    },
+    "ENS": {
+      "coin": "ENS",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.0014138168780046187,
+      "median_abs_spread": 0.02000000000000135,
+      "listing_date": "2023-02-12T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 1000,
+      "cum_return": -0.10663841807909602,
+      "max_drawdown": -0.73747116795974,
+      "volatility": 1.0484939179875103
+    },
+    "ETC": {
+      "coin": "ETC",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.001076136747247195,
+      "median_abs_spread": 0.019999999999999574,
+      "listing_date": "2023-02-12T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 1000,
+      "cum_return": -0.29962013295346623,
+      "max_drawdown": -0.6323490985105827,
+      "volatility": 0.7415067410989921
+    },
+    "FIL": {
+      "coin": "FIL",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.0008880790090293245,
+      "median_abs_spread": 0.0040000000000000036,
+      "listing_date": "2023-02-12T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 1000,
+      "cum_return": -0.5810124008944908,
+      "max_drawdown": -0.8806322039818373,
+      "volatility": 0.9347581768025103
+    },
+    "FLOW": {
+      "coin": "FLOW",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.0021857923497267777,
+      "median_abs_spread": 0.0014000000000000123,
+      "listing_date": "2023-02-12T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 1000,
+      "cum_return": -0.7666989351403679,
+      "max_drawdown": -0.8570559610705596,
+      "volatility": 0.8476016095008304
+    },
+    "G": {
+      "coin": "G",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.005311301268811052,
+      "median_abs_spread": 0.0001799999999999996,
+      "listing_date": "2024-07-19T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 477,
+      "cum_return": -0.9003741814780168,
+      "max_drawdown": -0.9073900841908326,
+      "volatility": 0.8835775565449626
+    },
+    "GMT": {
+      "coin": "GMT",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.0016542597187757995,
+      "median_abs_spread": 0.00030000000000002247,
+      "listing_date": "2023-02-12T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 1000,
+      "cum_return": -0.9463103122043519,
+      "max_drawdown": -0.9546158676993929,
+      "volatility": 0.9998342526707721
+    },
+    "GRT": {
+      "coin": "GRT",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.0011385088500425922,
+      "median_abs_spread": 0.00019999999999997797,
+      "listing_date": "2023-02-12T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 1000,
+      "cum_return": -0.6298120544394037,
+      "max_drawdown": -0.8790137107474569,
+      "volatility": 0.9560189940609292
+    },
+    "HBAR": {
+      "coin": "HBAR",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.0013245034179536707,
+      "median_abs_spread": 0.00010000000000000286,
+      "listing_date": "2023-02-12T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 1000,
+      "cum_return": 0.8855990783410139,
+      "max_drawdown": -0.727831094049904,
+      "volatility": 1.01609590693429
+    },
+    "IMX": {
+      "coin": "IMX",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.0013770123935157193,
+      "median_abs_spread": 0.0016000000000000458,
+      "listing_date": "2023-02-12T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 1000,
+      "cum_return": -0.5963035019455254,
+      "max_drawdown": -0.9009575022634366,
+      "volatility": 1.0631760280550846
+    },
+    "INJ": {
+      "coin": "INJ",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.001596711538078123,
+      "median_abs_spread": 0.02499999999999858,
+      "listing_date": "2023-02-12T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 1000,
+      "cum_return": 0.9211233940842545,
+      "max_drawdown": -0.8781099324975892,
+      "volatility": 1.0902568952352782
+    },
+    "JTO": {
+      "coin": "JTO",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.0012213295758834622,
+      "median_abs_spread": 0.0030999999999998806,
+      "listing_date": "2023-12-07T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 702,
+      "cum_return": -0.6845755347593583,
+      "max_drawdown": -0.8469115534578289,
+      "volatility": 1.238836820856013
+    },
+    "LAYER": {
+      "coin": "LAYER",
+      "primary_exchange": "binance",
+      "median_rel_spread": 1.9971228753181776,
+      "median_abs_spread": 748.9639,
+      "listing_date": "2025-02-11T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 270,
+      "cum_return": -0.80301593323217,
+      "max_drawdown": -0.9371716554673183,
+      "volatility": 1.3216405154614677
+    },
+    "LINEA": {
+      "coin": "LINEA",
+      "primary_exchange": "binance",
+      "median_rel_spread": 1.9973039828548538,
+      "median_abs_spread": 31.77703,
+      "listing_date": "2025-09-10T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 59,
+      "cum_return": -0.5101336783096162,
+      "max_drawdown": -0.654921020656136,
+      "volatility": 1.6217001080171582
+    },
+    "LINK": {
+      "coin": "LINK",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.0007306571570234633,
+      "median_abs_spread": 0.009149999999999991,
+      "listing_date": "2023-02-12T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 1000,
+      "cum_return": 1.1753819036427733,
+      "max_drawdown": -0.6264524948735475,
+      "volatility": 0.8709365799809162
+    },
+    "MANA": {
+      "coin": "MANA",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.000999833361106557,
+      "median_abs_spread": 0.00040000000000001146,
+      "listing_date": "2023-02-12T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 1000,
+      "cum_return": -0.6757983956409868,
+      "max_drawdown": -0.742754552449346,
+      "volatility": 0.8756310467634064
+    },
+    "MASK": {
+      "coin": "MASK",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.002305032654629191,
+      "median_abs_spread": 0.007000000000000117,
+      "listing_date": "2023-02-12T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 1000,
+      "cum_return": -0.7854942593111174,
+      "max_drawdown": -0.8906942392909897,
+      "volatility": 1.0187369360837284
+    },
+    "ME": {
+      "coin": "ME",
+      "primary_exchange": "binance",
+      "median_rel_spread": 1.9970883954139287,
+      "median_abs_spread": 861.394,
+      "listing_date": "2024-12-10T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 333,
+      "cum_return": -0.9292893669546817,
+      "max_drawdown": -0.9305237171574678,
+      "volatility": 1.1595785094482667
+    },
+    "MINA": {
+      "coin": "MINA",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.0020562031201719257,
+      "median_abs_spread": 0.0011999999999999789,
+      "listing_date": "2023-02-12T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 1000,
+      "cum_return": -0.8374875373878364,
+      "max_drawdown": -0.9424593395761459,
+      "volatility": 1.0022721508249053
+    },
+    "NEAR": {
+      "coin": "NEAR",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.0009655259851379028,
+      "median_abs_spread": 0.0030000000000001137,
+      "listing_date": "2023-02-12T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 1000,
+      "cum_return": -0.04023245417970511,
+      "max_drawdown": -0.7933641801151112,
+      "volatility": 0.9774308150841914
+    },
+    "ONDO": {
+      "coin": "ONDO",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.000934804025219359,
+      "median_abs_spread": 0.0008299999999999419,
+      "listing_date": "2025-04-11T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 211,
+      "cum_return": -0.32468113671962406,
+      "max_drawdown": -0.4809727932814276,
+      "volatility": 0.8364386440007621
+    },
+    "OP": {
+      "coin": "OP",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.0008699434536755486,
+      "median_abs_spread": 0.0012000000000000899,
+      "listing_date": "2023-02-12T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 1000,
+      "cum_return": -0.8411058722674668,
+      "max_drawdown": -0.926463700234192,
+      "volatility": 1.0463159462853042
+    },
+    "PENDLE": {
+      "coin": "PENDLE",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.0009402008172516438,
+      "median_abs_spread": 0.0023999999999999577,
+      "listing_date": "2023-07-03T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 859,
+      "cum_return": 2.060889929742389,
+      "max_drawdown": -0.7267134067820862,
+      "volatility": 1.1632928435590992
+    },
+    "PENGU": {
+      "coin": "PENGU",
+      "primary_exchange": "binance",
+      "median_rel_spread": 1.9970698753112368,
+      "median_abs_spread": 14.159889,
+      "listing_date": "2024-12-17T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 326,
+      "cum_return": -0.49308900523560206,
+      "max_drawdown": -0.9101092261213107,
+      "volatility": 1.5807107915287653
+    },
+    "PEPE": {
+      "coin": "PEPE",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.002068252326783848,
+      "median_abs_spread": 7.000000000000102e-09,
+      "listing_date": "2023-05-05T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 918,
+      "cum_return": 0.5040214477211795,
+      "max_drawdown": -0.8337801608579088,
+      "volatility": 1.399629137987184
+    },
+    "POL": {
+      "coin": "POL",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.0017550739998998498,
+      "median_abs_spread": 0.0007000000000000339,
+      "listing_date": "2024-09-13T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 421,
+      "cum_return": -0.5961538461538461,
+      "max_drawdown": -0.7724340998317443,
+      "volatility": 0.8734778493091402
+    },
+    "PROVE": {
+      "coin": "PROVE",
+      "primary_exchange": "binance",
+      "median_rel_spread": 1.9971752916085581,
+      "median_abs_spread": 1229.1182,
+      "listing_date": "2025-08-05T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 95,
+      "cum_return": -0.4336523929471032,
+      "max_drawdown": -0.6553658232581329,
+      "volatility": 1.5238369241353558
+    },
+    "PUMP": {
+      "coin": "PUMP",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.9998046704580119,
+      "median_abs_spread": 2.6182745,
+      "listing_date": "2025-09-11T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 58,
+      "cum_return": -0.3645002545392839,
+      "max_drawdown": -0.5987017503187666,
+      "volatility": 1.736017142363419
+    },
+    "PYTH": {
+      "coin": "PYTH",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.000465098252005771,
+      "median_abs_spread": 0.00015999999999999348,
+      "listing_date": "2024-02-02T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 645,
+      "cum_return": -0.8051975051975052,
+      "max_drawdown": -0.9222868569351027,
+      "volatility": 1.2045684000300596
+    },
+    "RENDER": {
+      "coin": "RENDER",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.00146512547518253,
+      "median_abs_spread": 0.009350000000000414,
+      "listing_date": "2024-07-26T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 470,
+      "cum_return": -0.7054743987014904,
+      "max_drawdown": -0.8222604047346316,
+      "volatility": 1.0535612221950021
+    },
+    "SAND": {
+      "coin": "SAND",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.0009437838579666184,
+      "median_abs_spread": 0.00039999999999995595,
+      "listing_date": "2023-02-12T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 1000,
+      "cum_return": -0.7388399203866932,
+      "max_drawdown": -0.8139111824505083,
+      "volatility": 0.9533774915498557
+    },
+    "SHIB": {
+      "coin": "SHIB",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.0010210607529071987,
+      "median_abs_spread": 1.0000000000001598e-08,
+      "listing_date": "2023-02-12T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 1000,
+      "cum_return": -0.2860483242400623,
+      "max_drawdown": -0.7535505430242273,
+      "volatility": 0.8735156132361548
+    },
+    "STX": {
+      "coin": "STX",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.0012543965907881004,
+      "median_abs_spread": 0.0014350000000000196,
+      "listing_date": "2023-02-12T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 1000,
+      "cum_return": 0.22736486486486496,
+      "max_drawdown": -0.9036943996941813,
+      "volatility": 1.1187920836413718
+    },
+    "SUI": {
+      "coin": "SUI",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.0008328056608475944,
+      "median_abs_spread": 0.0010000000000000009,
+      "listing_date": "2023-05-03T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 920,
+      "cum_return": 0.4230878995433789,
+      "max_drawdown": -0.7423147345090103,
+      "volatility": 1.0600703117993207
+    },
+    "TIA": {
+      "coin": "TIA",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.000991899487518489,
+      "median_abs_spread": 0.00790000000000024,
+      "listing_date": "2023-10-31T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 739,
+      "cum_return": -0.6387181738366989,
+      "max_drawdown": -0.9611393177791343,
+      "volatility": 1.2835315338052335
+    },
+    "TRUMP": {
+      "coin": "TRUMP",
+      "primary_exchange": "binance",
+      "median_rel_spread": 1.9971162101472146,
+      "median_abs_spread": 11701.646,
+      "listing_date": "2025-01-19T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 293,
+      "cum_return": -0.837010752688172,
+      "max_drawdown": -0.8840860215053763,
+      "volatility": 1.3040942727063116
+    },
+    "UNI": {
+      "coin": "UNI",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.0008424363285116053,
+      "median_abs_spread": 0.006000000000000227,
+      "listing_date": "2023-02-12T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 1000,
+      "cum_return": -0.16293728332808066,
+      "max_drawdown": -0.7432396107736143,
+      "volatility": 0.9653307838335482
+    },
+    "W": {
+      "coin": "W",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.0008818549593552028,
+      "median_abs_spread": 0.00020000000000003348,
+      "listing_date": "2024-04-03T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 584,
+      "cum_return": -0.9558778625954198,
+      "max_drawdown": -0.9587022900763359,
+      "volatility": 1.2481682195342785
+    },
+    "WCT": {
+      "coin": "WCT",
+      "primary_exchange": "binance",
+      "median_rel_spread": 1.9971367521748469,
+      "median_abs_spread": 435.38239999999996,
+      "listing_date": "2025-04-15T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 207,
+      "cum_return": -0.6215363030515608,
+      "max_drawdown": -0.9060478937248733,
+      "volatility": 1.6747182159931624
+    },
+    "WLD": {
+      "coin": "WLD",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.000357215810644204,
+      "median_abs_spread": 0.0008999999999996788,
+      "listing_date": "2023-07-24T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 838,
+      "cum_return": -0.6677464136973623,
+      "max_drawdown": -0.9471433458775231,
+      "volatility": 1.358430471780119
+    },
+    "WLFI": {
+      "coin": "WLFI",
+      "primary_exchange": "binance",
+      "median_rel_spread": 1.9972331095792057,
+      "median_abs_spread": 272.8071,
+      "listing_date": "2025-09-01T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 68,
+      "cum_return": -0.4989293361884368,
+      "max_drawdown": -0.5336617405582923,
+      "volatility": 1.4573382047233596
+    },
+    "XLM": {
+      "coin": "XLM",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.0008580446136413414,
+      "median_abs_spread": 0.00010699999999996823,
+      "listing_date": "2023-02-12T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 1000,
+      "cum_return": 2.1985898942420685,
+      "max_drawdown": -0.6054931335830211,
+      "volatility": 0.8741250208781364
+    },
+    "XRP": {
+      "coin": "XRP",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.00048465266875180726,
+      "median_abs_spread": 0.000300000000000078,
+      "listing_date": "2023-02-12T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 1000,
+      "cum_return": 4.921270349613025,
+      "max_drawdown": -0.48835223807781436,
+      "volatility": 0.8323762513838384
+    },
+    "XTZ": {
+      "coin": "XTZ",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.0016748269166607806,
+      "median_abs_spread": 0.0015000000000000568,
+      "listing_date": "2023-02-12T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 1000,
+      "cum_return": -0.4256719184430028,
+      "max_drawdown": -0.7254464285714286,
+      "volatility": 0.8253171023841216
+    },
+    "ZRO": {
+      "coin": "ZRO",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.001803839442292832,
+      "median_abs_spread": 0.007600000000000051,
+      "listing_date": "2024-06-20T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 506,
+      "cum_return": -0.5501165501165501,
+      "max_drawdown": -0.8042328042328042,
+      "volatility": 1.1727303821372843
+    },
+    "ZRX": {
+      "coin": "ZRX",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.0016144579674032444,
+      "median_abs_spread": 0.0005129999999999857,
+      "listing_date": "2023-02-12T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 1000,
+      "cum_return": -0.10499359795134444,
+      "max_drawdown": -0.8679717397703857,
+      "volatility": 1.0324959795238986
+    }
+  },
+  "summary": {
+    "coins": 69,
+    "median_cum_return": -0.5501165501165501,
+    "median_drawdown": -0.8224664679582713,
+    "median_volatility": 1.01609590693429,
+    "median_spread": 0.0013245034179536707
+  },
+  "top_decliners": [
+    {
+      "coin": "W",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.0008818549593552028,
+      "median_abs_spread": 0.00020000000000003348,
+      "listing_date": "2024-04-03T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 584,
+      "cum_return": -0.9558778625954198,
+      "max_drawdown": -0.9587022900763359,
+      "volatility": 1.2481682195342785
+    },
+    {
+      "coin": "GMT",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.0016542597187757995,
+      "median_abs_spread": 0.00030000000000002247,
+      "listing_date": "2023-02-12T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 1000,
+      "cum_return": -0.9463103122043519,
+      "max_drawdown": -0.9546158676993929,
+      "volatility": 0.9998342526707721
+    },
+    {
+      "coin": "BLUR",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.0012250345736424073,
+      "median_abs_spread": 0.00039999999999995595,
+      "listing_date": "2023-11-24T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 715,
+      "cum_return": -0.9338062924120913,
+      "max_drawdown": -0.9487408510110408,
+      "volatility": 1.0367329088405874
+    },
+    {
+      "coin": "ME",
+      "primary_exchange": "binance",
+      "median_rel_spread": 1.9970883954139287,
+      "median_abs_spread": 861.394,
+      "listing_date": "2024-12-10T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 333,
+      "cum_return": -0.9292893669546817,
+      "max_drawdown": -0.9305237171574678,
+      "volatility": 1.1595785094482667
+    },
+    {
+      "coin": "G",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.005311301268811052,
+      "median_abs_spread": 0.0001799999999999996,
+      "listing_date": "2024-07-19T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 477,
+      "cum_return": -0.9003741814780168,
+      "max_drawdown": -0.9073900841908326,
+      "volatility": 0.8835775565449626
+    }
+  ],
+  "top_gainers": [
+    {
+      "coin": "XRP",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.00048465266875180726,
+      "median_abs_spread": 0.000300000000000078,
+      "listing_date": "2023-02-12T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 1000,
+      "cum_return": 4.921270349613025,
+      "max_drawdown": -0.48835223807781436,
+      "volatility": 0.8323762513838384
+    },
+    {
+      "coin": "BCH",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.0008421052631578469,
+      "median_abs_spread": 0.2300000000000182,
+      "listing_date": "2023-02-12T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 1000,
+      "cum_return": 2.8633034987794956,
+      "max_drawdown": -0.6120478455108805,
+      "volatility": 0.8323373275311512
+    },
+    {
+      "coin": "XLM",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.0008580446136413414,
+      "median_abs_spread": 0.00010699999999996823,
+      "listing_date": "2023-02-12T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 1000,
+      "cum_return": 2.1985898942420685,
+      "max_drawdown": -0.6054931335830211,
+      "volatility": 0.8741250208781364
+    },
+    {
+      "coin": "PENDLE",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.0009402008172516438,
+      "median_abs_spread": 0.0023999999999999577,
+      "listing_date": "2023-07-03T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 859,
+      "cum_return": 2.060889929742389,
+      "max_drawdown": -0.7267134067820862,
+      "volatility": 1.1632928435590992
+    },
+    {
+      "coin": "AAVE",
+      "primary_exchange": "binance",
+      "median_rel_spread": 0.0009040775072570206,
+      "median_abs_spread": 0.09000000000000341,
+      "listing_date": "2023-02-12T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 1000,
+      "cum_return": 1.5733850129198967,
+      "max_drawdown": -0.6732980470888847,
+      "volatility": 0.9049997090800148
+    }
+  ],
+  "top_spreads": [
+    {
+      "coin": "BARD",
+      "primary_exchange": "binance",
+      "median_rel_spread": 1.9973100746047547,
+      "median_abs_spread": 1037.3136,
+      "listing_date": "2025-09-18T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 51,
+      "cum_return": -0.348852582869015,
+      "max_drawdown": -0.5857579380895443,
+      "volatility": 1.794226413434249
+    },
+    {
+      "coin": "LINEA",
+      "primary_exchange": "binance",
+      "median_rel_spread": 1.9973039828548538,
+      "median_abs_spread": 31.77703,
+      "listing_date": "2025-09-10T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 59,
+      "cum_return": -0.5101336783096162,
+      "max_drawdown": -0.654921020656136,
+      "volatility": 1.6217001080171582
+    },
+    {
+      "coin": "AVNT",
+      "primary_exchange": "binance",
+      "median_rel_spread": 1.997258712164327,
+      "median_abs_spread": 1007.8322000000001,
+      "listing_date": "2025-09-15T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 54,
+      "cum_return": -0.5976863753213367,
+      "max_drawdown": -0.7928640961611715,
+      "volatility": 2.672186899245792
+    },
+    {
+      "coin": "WLFI",
+      "primary_exchange": "binance",
+      "median_rel_spread": 1.9972331095792057,
+      "median_abs_spread": 272.8071,
+      "listing_date": "2025-09-01T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 68,
+      "cum_return": -0.4989293361884368,
+      "max_drawdown": -0.5336617405582923,
+      "volatility": 1.4573382047233596
+    },
+    {
+      "coin": "PROVE",
+      "primary_exchange": "binance",
+      "median_rel_spread": 1.9971752916085581,
+      "median_abs_spread": 1229.1182,
+      "listing_date": "2025-08-05T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 95,
+      "cum_return": -0.4336523929471032,
+      "max_drawdown": -0.6553658232581329,
+      "volatility": 1.5238369241353558
+    },
+    {
+      "coin": "WCT",
+      "primary_exchange": "binance",
+      "median_rel_spread": 1.9971367521748469,
+      "median_abs_spread": 435.38239999999996,
+      "listing_date": "2025-04-15T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 207,
+      "cum_return": -0.6215363030515608,
+      "max_drawdown": -0.9060478937248733,
+      "volatility": 1.6747182159931624
+    },
+    {
+      "coin": "LAYER",
+      "primary_exchange": "binance",
+      "median_rel_spread": 1.9971228753181776,
+      "median_abs_spread": 748.9639,
+      "listing_date": "2025-02-11T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 270,
+      "cum_return": -0.80301593323217,
+      "max_drawdown": -0.9371716554673183,
+      "volatility": 1.3216405154614677
+    },
+    {
+      "coin": "BERA",
+      "primary_exchange": "binance",
+      "median_rel_spread": 1.9971216312961633,
+      "median_abs_spread": 2835.948,
+      "listing_date": "2025-02-06T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 275,
+      "cum_return": -0.8322817483079041,
+      "max_drawdown": -0.8343363233791302,
+      "volatility": 1.3641378624953482
+    },
+    {
+      "coin": "TRUMP",
+      "primary_exchange": "binance",
+      "median_rel_spread": 1.9971162101472146,
+      "median_abs_spread": 11701.646,
+      "listing_date": "2025-01-19T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 293,
+      "cum_return": -0.837010752688172,
+      "max_drawdown": -0.8840860215053763,
+      "volatility": 1.3040942727063116
+    },
+    {
+      "coin": "ME",
+      "primary_exchange": "binance",
+      "median_rel_spread": 1.9970883954139287,
+      "median_abs_spread": 861.394,
+      "listing_date": "2024-12-10T00:00:00Z",
+      "last_date": "2025-11-07T00:00:00Z",
+      "days": 333,
+      "cum_return": -0.9292893669546817,
+      "max_drawdown": -0.9305237171574678,
+      "volatility": 1.1595785094482667
+    }
+  ],
+  "exchange_summary": {
+    "binance": {
+      "count": 69,
+      "avg_cum_return": -0.19772557119179926,
+      "median_drawdown": -0.8224664679582713,
+      "median_volatility": 1.01609590693429
+    },
+    "coinbase": {
+      "count": 69,
+      "avg_cum_return": -0.24485665313100977,
+      "median_drawdown": -0.8911111111111111,
+      "median_volatility": 1.1117707573444704
+    },
+    "bybit": {
+      "count": 69,
+      "avg_cum_return": 0.06837375664749451,
+      "median_drawdown": -0.8224810186944438,
+      "median_volatility": 1.0191905513427677
+    },
+    "upbit": {
+      "count": 69,
+      "avg_cum_return": -0.272509500657761,
+      "median_drawdown": -0.5488810365135454,
+      "median_volatility": 0.8632876424795148
+    },
+    "okx": {
+      "count": 69,
+      "avg_cum_return": -0.32617372345438034,
+      "median_drawdown": -0.5087399490585827,
+      "median_volatility": 1.0262016308329356
+    }
+  },
+  "return_distribution": [
+    {
+      "coin": "W",
+      "cum_return": -0.9558778625954198
+    },
+    {
+      "coin": "GMT",
+      "cum_return": -0.9463103122043519
+    },
+    {
+      "coin": "BLUR",
+      "cum_return": -0.9338062924120913
+    },
+    {
+      "coin": "ME",
+      "cum_return": -0.9292893669546817
+    },
+    {
+      "coin": "G",
+      "cum_return": -0.9003741814780168
+    },
+    {
+      "coin": "AXS",
+      "cum_return": -0.8729566094853684
+    },
+    {
+      "coin": "OP",
+      "cum_return": -0.8411058722674668
+    },
+    {
+      "coin": "MINA",
+      "cum_return": -0.8374875373878364
+    },
+    {
+      "coin": "TRUMP",
+      "cum_return": -0.837010752688172
+    },
+    {
+      "coin": "BERA",
+      "cum_return": -0.8322817483079041
+    },
+    {
+      "coin": "EGLD",
+      "cum_return": -0.8068698817106461
+    },
+    {
+      "coin": "PYTH",
+      "cum_return": -0.8051975051975052
+    },
+    {
+      "coin": "LAYER",
+      "cum_return": -0.80301593323217
+    },
+    {
+      "coin": "ATOM",
+      "cum_return": -0.8000590885589778
+    },
+    {
+      "coin": "ARB",
+      "cum_return": -0.7963985775894681
+    },
+    {
+      "coin": "MASK",
+      "cum_return": -0.7854942593111174
+    },
+    {
+      "coin": "APT",
+      "cum_return": -0.7816167381384773
+    },
+    {
+      "coin": "CHZ",
+      "cum_return": -0.7737275449101797
+    },
+    {
+      "coin": "FLOW",
+      "cum_return": -0.7666989351403679
+    },
+    {
+      "coin": "SAND",
+      "cum_return": -0.7388399203866932
+    },
+    {
+      "coin": "RENDER",
+      "cum_return": -0.7054743987014904
+    },
+    {
+      "coin": "JTO",
+      "cum_return": -0.6845755347593583
+    },
+    {
+      "coin": "MANA",
+      "cum_return": -0.6757983956409868
+    },
+    {
+      "coin": "WLD",
+      "cum_return": -0.6677464136973623
+    },
+    {
+      "coin": "TIA",
+      "cum_return": -0.6387181738366989
+    },
+    {
+      "coin": "1INCH",
+      "cum_return": -0.6330206378986867
+    },
+    {
+      "coin": "GRT",
+      "cum_return": -0.6298120544394037
+    },
+    {
+      "coin": "WCT",
+      "cum_return": -0.6215363030515608
+    },
+    {
+      "coin": "ENA",
+      "cum_return": -0.6012903225806452
+    },
+    {
+      "coin": "AVNT",
+      "cum_return": -0.5976863753213367
+    },
+    {
+      "coin": "IMX",
+      "cum_return": -0.5963035019455254
+    },
+    {
+      "coin": "POL",
+      "cum_return": -0.5961538461538461
+    },
+    {
+      "coin": "FIL",
+      "cum_return": -0.5810124008944908
+    },
+    {
+      "coin": "DOT",
+      "cum_return": -0.5523378094159521
+    },
+    {
+      "coin": "ZRO",
+      "cum_return": -0.5501165501165501
+    },
+    {
+      "coin": "ARKM",
+      "cum_return": -0.5394436844505244
+    },
+    {
+      "coin": "LINEA",
+      "cum_return": -0.5101336783096162
+    },
+    {
+      "coin": "WLFI",
+      "cum_return": -0.4989293361884368
+    },
+    {
+      "coin": "PENGU",
+      "cum_return": -0.49308900523560206
+    },
+    {
+      "coin": "BONK",
+      "cum_return": -0.4909397387273494
+    },
+    {
+      "coin": "PROVE",
+      "cum_return": -0.4336523929471032
+    },
+    {
+      "coin": "XTZ",
+      "cum_return": -0.4256719184430028
+    },
+    {
+      "coin": "PUMP",
+      "cum_return": -0.3645002545392839
+    },
+    {
+      "coin": "ALGO",
+      "cum_return": -0.35367825383993545
+    },
+    {
+      "coin": "BARD",
+      "cum_return": -0.348852582869015
+    },
+    {
+      "coin": "AGLD",
+      "cum_return": -0.3431952662721893
+    },
+    {
+      "coin": "COMP",
+      "cum_return": -0.34177475808112
+    },
+    {
+      "coin": "ONDO",
+      "cum_return": -0.32468113671962406
+    },
+    {
+      "coin": "ETC",
+      "cum_return": -0.29962013295346623
+    },
+    {
+      "coin": "SHIB",
+      "cum_return": -0.2860483242400623
+    },
+    {
+      "coin": "BAT",
+      "cum_return": -0.2115520907158044
+    },
+    {
+      "coin": "UNI",
+      "cum_return": -0.16293728332808066
+    },
+    {
+      "coin": "ENS",
+      "cum_return": -0.10663841807909602
+    },
+    {
+      "coin": "ZRX",
+      "cum_return": -0.10499359795134444
+    },
+    {
+      "coin": "AVAX",
+      "cum_return": -0.08605174353205858
+    },
+    {
+      "coin": "NEAR",
+      "cum_return": -0.04023245417970511
+    },
+    {
+      "coin": "STX",
+      "cum_return": 0.22736486486486496
+    },
+    {
+      "coin": "SUI",
+      "cum_return": 0.4230878995433789
+    },
+    {
+      "coin": "ADA",
+      "cum_return": 0.4759681406207086
+    },
+    {
+      "coin": "PEPE",
+      "cum_return": 0.5040214477211795
+    },
+    {
+      "coin": "HBAR",
+      "cum_return": 0.8855990783410139
+    },
+    {
+      "coin": "INJ",
+      "cum_return": 0.9211233940842545
+    },
+    {
+      "coin": "DOGE",
+      "cum_return": 0.9695678636640293
+    },
+    {
+      "coin": "LINK",
+      "cum_return": 1.1753819036427733
+    },
+    {
+      "coin": "AAVE",
+      "cum_return": 1.5733850129198967
+    },
+    {
+      "coin": "PENDLE",
+      "cum_return": 2.060889929742389
+    },
+    {
+      "coin": "XLM",
+      "cum_return": 2.1985898942420685
+    },
+    {
+      "coin": "BCH",
+      "cum_return": 2.8633034987794956
+    },
+    {
+      "coin": "XRP",
+      "cum_return": 4.921270349613025
+    }
+  ],
+  "spread_distribution": [
+    {
+      "coin": "1INCH",
+      "median_rel_spread": 0.0022497187851517903
+    },
+    {
+      "coin": "AAVE",
+      "median_rel_spread": 0.0009040775072570206
+    },
+    {
+      "coin": "ADA",
+      "median_rel_spread": 0.0006779680493192282
+    },
+    {
+      "coin": "AGLD",
+      "median_rel_spread": 0.0030849660071014555
+    },
+    {
+      "coin": "ALGO",
+      "median_rel_spread": 0.0010596027233614775
+    },
+    {
+      "coin": "APT",
+      "median_rel_spread": 0.0012241655616071845
+    },
+    {
+      "coin": "ARB",
+      "median_rel_spread": 0.0009272137227629947
+    },
+    {
+      "coin": "ARKM",
+      "median_rel_spread": 0.0013371808156959022
+    },
+    {
+      "coin": "ATOM",
+      "median_rel_spread": 0.0007258506454860293
+    },
+    {
+      "coin": "AVAX",
+      "median_rel_spread": 0.0007677547711685373
+    },
+    {
+      "coin": "AVNT",
+      "median_rel_spread": 1.997258712164327
+    },
+    {
+      "coin": "AXS",
+      "median_rel_spread": 0.0017864913255050475
+    },
+    {
+      "coin": "BARD",
+      "median_rel_spread": 1.9973100746047547
+    },
+    {
+      "coin": "BAT",
+      "median_rel_spread": 0.0020128675292033172
+    },
+    {
+      "coin": "BCH",
+      "median_rel_spread": 0.0008421052631578469
+    },
+    {
+      "coin": "BERA",
+      "median_rel_spread": 1.9971216312961633
+    },
+    {
+      "coin": "BLUR",
+      "median_rel_spread": 0.0012250345736424073
+    },
+    {
+      "coin": "BONK",
+      "median_rel_spread": 0.001009591115598173
+    },
+    {
+      "coin": "CHZ",
+      "median_rel_spread": 0.001666666666666599
+    },
+    {
+      "coin": "COMP",
+      "median_rel_spread": 0.0014396451803134808
+    },
+    {
+      "coin": "DOGE",
+      "median_rel_spread": 0.000546244393048431
+    },
+    {
+      "coin": "DOT",
+      "median_rel_spread": 0.0007201793565913159
+    },
+    {
+      "coin": "EGLD",
+      "median_rel_spread": 0.001577777103077182
+    },
+    {
+      "coin": "ENA",
+      "median_rel_spread": 0.000704473406128841
+    },
+    {
+      "coin": "ENS",
+      "median_rel_spread": 0.0014138168780046187
+    },
+    {
+      "coin": "ETC",
+      "median_rel_spread": 0.001076136747247195
+    },
+    {
+      "coin": "FIL",
+      "median_rel_spread": 0.0008880790090293245
+    },
+    {
+      "coin": "FLOW",
+      "median_rel_spread": 0.0021857923497267777
+    },
+    {
+      "coin": "G",
+      "median_rel_spread": 0.005311301268811052
+    },
+    {
+      "coin": "GMT",
+      "median_rel_spread": 0.0016542597187757995
+    },
+    {
+      "coin": "GRT",
+      "median_rel_spread": 0.0011385088500425922
+    },
+    {
+      "coin": "HBAR",
+      "median_rel_spread": 0.0013245034179536707
+    },
+    {
+      "coin": "IMX",
+      "median_rel_spread": 0.0013770123935157193
+    },
+    {
+      "coin": "INJ",
+      "median_rel_spread": 0.001596711538078123
+    },
+    {
+      "coin": "JTO",
+      "median_rel_spread": 0.0012213295758834622
+    },
+    {
+      "coin": "LAYER",
+      "median_rel_spread": 1.9971228753181776
+    },
+    {
+      "coin": "LINEA",
+      "median_rel_spread": 1.9973039828548538
+    },
+    {
+      "coin": "LINK",
+      "median_rel_spread": 0.0007306571570234633
+    },
+    {
+      "coin": "MANA",
+      "median_rel_spread": 0.000999833361106557
+    },
+    {
+      "coin": "MASK",
+      "median_rel_spread": 0.002305032654629191
+    },
+    {
+      "coin": "ME",
+      "median_rel_spread": 1.9970883954139287
+    },
+    {
+      "coin": "MINA",
+      "median_rel_spread": 0.0020562031201719257
+    },
+    {
+      "coin": "NEAR",
+      "median_rel_spread": 0.0009655259851379028
+    },
+    {
+      "coin": "ONDO",
+      "median_rel_spread": 0.000934804025219359
+    },
+    {
+      "coin": "OP",
+      "median_rel_spread": 0.0008699434536755486
+    },
+    {
+      "coin": "PENDLE",
+      "median_rel_spread": 0.0009402008172516438
+    },
+    {
+      "coin": "PENGU",
+      "median_rel_spread": 1.9970698753112368
+    },
+    {
+      "coin": "PEPE",
+      "median_rel_spread": 0.002068252326783848
+    },
+    {
+      "coin": "POL",
+      "median_rel_spread": 0.0017550739998998498
+    },
+    {
+      "coin": "PROVE",
+      "median_rel_spread": 1.9971752916085581
+    },
+    {
+      "coin": "PUMP",
+      "median_rel_spread": 0.9998046704580119
+    },
+    {
+      "coin": "PYTH",
+      "median_rel_spread": 0.000465098252005771
+    },
+    {
+      "coin": "RENDER",
+      "median_rel_spread": 0.00146512547518253
+    },
+    {
+      "coin": "SAND",
+      "median_rel_spread": 0.0009437838579666184
+    },
+    {
+      "coin": "SHIB",
+      "median_rel_spread": 0.0010210607529071987
+    },
+    {
+      "coin": "STX",
+      "median_rel_spread": 0.0012543965907881004
+    },
+    {
+      "coin": "SUI",
+      "median_rel_spread": 0.0008328056608475944
+    },
+    {
+      "coin": "TIA",
+      "median_rel_spread": 0.000991899487518489
+    },
+    {
+      "coin": "TRUMP",
+      "median_rel_spread": 1.9971162101472146
+    },
+    {
+      "coin": "UNI",
+      "median_rel_spread": 0.0008424363285116053
+    },
+    {
+      "coin": "W",
+      "median_rel_spread": 0.0008818549593552028
+    },
+    {
+      "coin": "WCT",
+      "median_rel_spread": 1.9971367521748469
+    },
+    {
+      "coin": "WLD",
+      "median_rel_spread": 0.000357215810644204
+    },
+    {
+      "coin": "WLFI",
+      "median_rel_spread": 1.9972331095792057
+    },
+    {
+      "coin": "XLM",
+      "median_rel_spread": 0.0008580446136413414
+    },
+    {
+      "coin": "XRP",
+      "median_rel_spread": 0.00048465266875180726
+    },
+    {
+      "coin": "XTZ",
+      "median_rel_spread": 0.0016748269166607806
+    },
+    {
+      "coin": "ZRO",
+      "median_rel_spread": 0.001803839442292832
+    },
+    {
+      "coin": "ZRX",
+      "median_rel_spread": 0.0016144579674032444
+    }
+  ]
+}

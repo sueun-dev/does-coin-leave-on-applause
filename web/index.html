@@ -19,6 +19,54 @@
       </div>
     </header>
     <main>
+      <section class="insights hidden" id="insightsSection">
+        <div>
+          <p class="eyebrow">Quant Insights</p>
+          <h2>시장 비효율 및 신호 모음</h2>
+          <p class="hint">
+            연구 본문의 10일 누적수익률(R₁₀)은 상장일(t=0)부터 10거래일째(t=10)까지 고정 구간을 의미합니다.
+            아래 요약 지표는 <code>scripts/compute_quant_insights.py</code>가 계산한 “상장일부터 현재까지”의 전체 시계열
+            누적수익률·교차거래소 스프레드·변동성입니다. 두 값을 함께 참고해 상장 직후 효과와 최근 추세를 비교하세요.
+          </p>
+        </div>
+        <div class="insight-cards" id="insightCards"></div>
+        <div class="insight-panels">
+          <article>
+            <h3>가장 큰 10일 하락</h3>
+            <div class="scroll-table">
+              <table id="declinerTable">
+                <thead>
+                  <tr>
+                    <th>코인</th>
+                    <th>누적수익률</th>
+                    <th>상장일</th>
+                  </tr>
+                </thead>
+                <tbody></tbody>
+              </table>
+            </div>
+          </article>
+          <article>
+            <h3>가장 큰 10일 상승</h3>
+            <div class="scroll-table">
+              <table id="gainerTable">
+                <thead>
+                  <tr>
+                    <th>코인</th>
+                    <th>누적수익률</th>
+                    <th>상장일</th>
+                  </tr>
+                </thead>
+                <tbody></tbody>
+              </table>
+            </div>
+        </article>
+      </div>
+        <div class="insight-chart">
+          <h3>10일 누적수익률 분포</h3>
+          <svg id="insightChart" role="img"></svg>
+        </div>
+      </section>
       <section class="controls">
         <label for="coinSelect">코인 선택</label>
         <select id="coinSelect" aria-label="코인 선택"></select>
@@ -26,6 +74,35 @@
           데이터는 <code>data/daily_histories/&lt;COIN&gt;.json</code>에서 로드됩니다. 페이지를 보기 전에
           <code>python3 scripts/fetch_daily_histories.py</code>를 실행해 최신 데이터를 준비하세요.
         </p>
+      </section>
+      <section class="ten-day" id="tenDaySection">
+        <header>
+          <h2>거래소별 상장 후 10일 요약</h2>
+          <p class="hint">
+            각 거래소의 상장일(t=0)부터 t=10까지 총 11개 일봉을 기준으로 P₀, P₁₀, 누적수익률, 최대낙폭을 계산합니다.
+          </p>
+        </header>
+        <div class="scroll-table">
+          <table>
+            <thead>
+              <tr>
+                <th>거래소</th>
+                <th>기간</th>
+                <th>P₀ → P₁₀</th>
+                <th>누적수익률</th>
+                <th>R₁₀ (로그)</th>
+                <th>β (ln Pₜ 회귀)</th>
+                <th>최대낙폭</th>
+                <th>판정</th>
+              </tr>
+            </thead>
+            <tbody id="tenDayTableBody">
+              <tr>
+                <td colspan="5" class="hint">코인을 선택하면 거래소별 10일 요약이 표시됩니다.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </section>
       <section id="status" class="status" role="status" aria-live="polite"></section>
       <section id="chartsContainer" class="charts-grid"></section>
