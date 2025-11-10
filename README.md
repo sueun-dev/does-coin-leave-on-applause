@@ -44,6 +44,7 @@ This repository contains the research design, automation scripts, and visualizat
   0 3 * * * cd /Users/bentley/Documents/codebase/does-coin-leave-on-applause && /usr/bin/python3 scripts/fetch_daily_histories.py --log-level INFO >> /tmp/coin-harvest.log 2>&1
   ```
 - The Chart.js dashboard in `web/` consumes these JSON files. Serve the repo root (`python3 -m http.server`) and open `http://localhost:8000/web/` to compare per-exchange high/low lines.
+- `scripts/compute_quant_insights.py` aggregates the stored histories into higher-level analytics (top 10-day decliners, cross-exchange spreads, per-exchange return statistics) and produces `data/analytics/quant_insights.json`, which the dashboard uses for the Quant Insights section.
 
 ### 7. Analysis Procedure
 - Define t = 0 at listing and analyze t ∈ [0, 10].
@@ -151,6 +152,7 @@ This repository contains the research design, automation scripts, and visualizat
   0 3 * * * cd /Users/bentley/Documents/codebase/does-coin-leave-on-applause && /usr/bin/python3 scripts/fetch_daily_histories.py --log-level INFO >> /tmp/coin-harvest.log 2>&1
   ```
 - `web/` 폴더에는 Chart.js 기반 대시보드가 포함되어 있으며, 루트에서 `python3 -m http.server`를 실행하고 `http://localhost:8000/web/`에 접속하면 거래소별 고·저가를 동시에 확인할 수 있다.
+- `scripts/compute_quant_insights.py`는 보유 중인 일별 데이터를 바탕으로 10일 누적수익률 하위권, 교차거래소 스프레드 상위권, 거래소별 성과 요약 등을 산출해 `data/analytics/quant_insights.json`으로 저장하며, 대시보드의 Quant Insights 구간이 해당 결과를 시각화한다.
 
 ### 7. 분석 절차
 - 상장일을 t=0, 분석 구간을 t ∈ [0, 10]으로 정의한다.

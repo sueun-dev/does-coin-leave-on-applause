@@ -72,6 +72,70 @@ main {
   gap: 0.5rem;
 }
 
+.insights {
+  margin: 3rem 0 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.insight-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.insight-card {
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+  padding: 1rem;
+  background: var(--card);
+  box-shadow: 0 10px 20px rgba(15, 23, 42, 0.05);
+}
+
+.insight-card p {
+  margin: 0.25rem 0 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.insight-card strong {
+  font-size: 1.5rem;
+  display: block;
+}
+
+.insight-panels {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.insight-panels article {
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+  padding: 1rem;
+  background: var(--card);
+}
+
+.insight-chart {
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+  padding: 1rem;
+  background: var(--card);
+}
+
+.insight-chart svg {
+  width: 100%;
+  height: 320px;
+}
+
+.chart-tooltip {
+  pointer-events: none;
+  font-weight: 600;
+  text-shadow: 0 2px 4px rgba(255, 255, 255, 0.6);
+}
+
+
 .controls select {
   padding: 0.75rem 1rem;
   border: 1px solid var(--border);
@@ -90,6 +154,20 @@ main {
   min-height: 1.5rem;
   font-weight: 600;
   color: var(--muted);
+}
+
+.ten-day {
+  margin: 1.5rem 0;
+  padding: 1rem;
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+  background: var(--card);
+  box-shadow: 0 10px 20px rgba(15, 23, 42, 0.05);
+}
+
+.ten-day h2 {
+  margin: 0 0 0.3rem;
+  font-size: 1.4rem;
 }
 
 .charts-grid {
@@ -240,6 +318,30 @@ canvas {
   border: 1px solid var(--border);
   border-radius: 0.75rem;
   background: white;
+}
+
+.test-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.test-badge {
+  padding: 0.15rem 0.45rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.test-badge.ok {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.test-badge.bad {
+  background: #fee2e2;
+  color: #991b1b;
 }
 
 .modal-table {
